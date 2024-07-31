@@ -1,6 +1,6 @@
 {
 	"name": "@abhinavkrin/meteor-random",
-	"version": "1.2.3",
+	"version": "1.2.4",
 	"description": "NPM version of Meteor's Random",
 	"main": "./dist/cjs/index.js",
 	"module": "./dist/esm/index.js",
