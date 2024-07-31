@@ -1,0 +1,41 @@
+{
+  "name": "@abhinavkrin/meteor-random",
+  "version": "1.2.3",
+  "description": "NPM version of Meteor's Random",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf ./dist ./docs",
+    "predocs": "rm -rf ./docs && mkdir ./docs",
+    "docs": "typedoc",
+    "test": "jest --verbose",
+    "test:watch": "jest --watchAll --no-cache"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/abhinavkrin/meteor-random.git",
+    "type": "git"
+  },
+  "author": "abhinavkrin",
+  "keywords": [
+    "meteor",
+    "random",
+    "crypt"
+  ],
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@tsconfig/node18": "^18.2.2",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typedoc": "^0.25.11",
+    "typescript": "^5.3.3"
+  }
+}
